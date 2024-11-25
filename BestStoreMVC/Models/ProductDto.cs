@@ -5,7 +5,6 @@ namespace BestStoreMVC.Models
 {
     public class ProductDto
     {
-
         [Required, MaxLength(100)]
         public string Name { get; set; } = "";
 
@@ -20,10 +19,7 @@ namespace BestStoreMVC.Models
         [Required]
         public string Description { get; set; } = "";
 
-        
         public IFormFile ImageFileName { get; set; } 
-
-
 
     }
 }
